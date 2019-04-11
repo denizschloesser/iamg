@@ -26,3 +26,20 @@ ul{
     display: inline;
     float: right;
 }
+
+#reload_Icon{
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+
+#logout_Icon{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+
+#Fusszeile{
+    width: 100%;
+    border-top: 5px solid orange;
+}
