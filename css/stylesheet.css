@@ -1,11 +1,11 @@
-#Kopfzeile{
+#kopfzeile{
     width: 100%;
     font-size: 24px;
     border-bottom:3px solid lightgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#Menue_Icon{
+#menue_Icon{
     display: inline;
 }
 
