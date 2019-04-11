@@ -1,8 +1,9 @@
 #kopfzeile{
     width: 100%;
-    font-size: 24px;
-    border-bottom:3px solid lightgrey;
+    font-size: 34px;
+    box-shadow: 10px 10px 15px silver;
     font-family: Arial, Helvetica, sans-serif;
+    /* align-items: center; */
 }
 
 #menue_Icon{
@@ -15,4 +16,13 @@
 
 ul{
     list-style-type: none;
+}
+#punkte_Icon{
+    display: inline;
+    float: right;
+}
+
+#plus_Icon{
+    display: inline;
+    float: right;
 }
