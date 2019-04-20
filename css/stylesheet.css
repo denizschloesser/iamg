@@ -1,45 +1,90 @@
-#kopfzeile{
-    width: 100%;
-    font-size: 34px;
-    box-shadow: 10px 10px 15px silver;
-    font-family: Arial, Helvetica, sans-serif;
-    /* align-items: center; */
+
+body{
+   margin: 0px;
 }
 
+/*############### Kopfzeile #############*/
+#kopfzeile{
+    position: fixed;
+    background-color: white;
+    padding: 5px 0px 0px 0px; 
+    width: 100%;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;    
+    /* align-items: center; */
+}
+.trennlinliegrau{
+    background-color: gray;
+    height: 3px;
+}
 #menue_Icon{
     display: inline;
+    margin: 5px;
 }
 
 #ueberschrift{
     display: inline;
+    margin-left: 1%
 }
 
-ul{
-    list-style-type: none;
-}
 #punkte_Icon{
     display: inline;
+    margin: 5px;
     float: right;
 }
 
 #plus_Icon{
     display: inline;
+    margin: 5px;
     float: right;
 }
 
-#reload_Icon{
-    display: inline;
+/*################ Grauelinlie ################## */
+.grauelinlie {
+    background-color: D1D1D1;
+    height: 57px;
+}
+
+/*################# Hauptteil ####################
+#hauptteil{
+    height: 150%;
+    background-color: aqua;
+}*/
+
+
+/*liste
+ul{
+    list-style-type: none;
+}
+*/
+
+/*################### Fusszeile #####################*/
+#fusszeile{
+    
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+}
+#inhaltfusszeile{
+    background-color: white;
+    width: 100%;
+    border-top: 5px solid orange;
+}
+.trennlinlieorange{
+    float: left;
+    background-color: orange;
+    height: 3px;
+    width: 100%
+}
+#reload_Icon{  
     float: right;
     padding: 5px;
 }
 
 #logout_Icon{
-    display: inline;
     float: left;
     padding: 5px;
 }
 
-#Fusszeile{
-    width: 100%;
-    border-top: 5px solid orange;
-}
