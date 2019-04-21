@@ -8,6 +8,7 @@
 
 #menue_Icon{
     display: inline;
+    margin-bottom: 10px;
 }
 
 #ueberschrift{
@@ -30,13 +31,13 @@ ul{
 #reload_Icon{
     display: inline;
     float: right;
-    padding: 5px;
+    padding: 10px;
 }
 
 #logout_Icon{
     display: inline;
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
 
 #Fusszeile{
