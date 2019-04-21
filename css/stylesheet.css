@@ -1,46 +1,108 @@
-#kopfzeile{
+
+body{
+   margin: 0px;
+   background-color: #ffffff;
+   color: #000000;
+}
+
+#Liste{
     width: 100%;
-    font-size: 34px;
-    box-shadow: 10px 10px 15px silver;
+    float: left;
+}
+
+.Listenelement{
+    width: 100%;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.Listenbild{
+    width: 100px;
+    margin: 5px;
+}
+
+
+#kopfzeile{   
+    position: fixed;   
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    /* align-items: center; */
+    border-bottom: 3px solid gray;
 }
 
 #menue_Icon{
+<<<<<<< HEAD
     display: inline;
     margin-bottom: 10px;
+=======
+    margin: calc(20px - 15px);
+    float: left;
+>>>>>>> 99634b20a9953a19492a888031130c7d5b72c883
 }
 
-#ueberschrift{
-    display: inline;
+#ueberschrift{  
+    
+    margin: calc(20px - 15px) 0px 0px calc(20px - 15px);
+    float: left;
 }
 
+#punkte_Icon{  
+    margin: calc(20px - 15px);
+    float: right;
+}
+
+#plus_Icon{   
+    margin: calc(20px - 15px) 15px calc(20px - 15px) 15px;
+    
+    float: right;
+}
+
+/*################ Grauelinlie ################## */
+.grauelinlie {
+    background-color: D1D1D1;
+    height: 52px;
+}
+
+/*################# Hauptteil ####################
+#hauptteil{
+    height: 150%;
+    background-color: aqua;
+}*/
+
+
+/*liste
 ul{
     list-style-type: none;
 }
-#punkte_Icon{
-    display: inline;
-    float: right;
+*/
+
+/*################### Fusszeile #####################*/
+#fusszeile{
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
 }
 
-#plus_Icon{
-    display: inline;
-    float: right;
+#inhaltfusszeile{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border-top: 3px solid orange;
 }
 
-#reload_Icon{
-    display: inline;
+#reload_Icon{  
+    padding-bottom: 100px;
     float: right;
     padding: 10px;
 }
 
 #logout_Icon{
-    display: inline;
+    padding-bottom: calc(20px - 15px);
     float: left;
     padding: 10px;
 }
 
-#Fusszeile{
-    width: 100%;
-    border-top: 5px solid orange;
-}
