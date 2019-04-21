@@ -24,6 +24,7 @@ body{
 .trennlinliegrau{
     background-color: gray;
     height: 3px;
+<<<<<<< HEAD
 >>>>>>> parent of 7e7d989... icons jetzt zentriert
 }
 #menue_Icon{
@@ -55,6 +56,16 @@ ul{
 #reload_Icon{
     display: inline;
 =======
+=======
+}
+#menue_Icon{
+    display: inline;
+    margin: 5px;
+}
+
+#ueberschrift{
+    display: inline;
+>>>>>>> parent of 7e7d989... icons jetzt zentriert
     margin-left: 1%
 }
 
@@ -110,6 +121,9 @@ ul{
     width: 100%
 }
 #reload_Icon{  
+<<<<<<< HEAD
+>>>>>>> parent of 7e7d989... icons jetzt zentriert
+=======
 >>>>>>> parent of 7e7d989... icons jetzt zentriert
     float: right;
     padding: 5px;
@@ -117,7 +131,10 @@ ul{
 
 #logout_Icon{
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: inline;
+=======
+>>>>>>> parent of 7e7d989... icons jetzt zentriert
 =======
 >>>>>>> parent of 7e7d989... icons jetzt zentriert
     float: left;
