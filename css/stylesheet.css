@@ -1,8 +1,25 @@
 
 body{
    margin: 0px;
+   background-color: #ffffff;
+   color: #000000;
 }
 
+#Liste{
+    width: 100%;
+    float: left;
+}
+
+.Listenelement{
+    width: 100%;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.Listenbild{
+    width: 100px;
+    margin: 5px;
+}
 
 
 #kopfzeile{   
